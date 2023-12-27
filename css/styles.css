@@ -821,7 +821,7 @@ border: 0;
 
 }
 
-.checkbox>input:checked{
+.checkbox input:checked{
 background-color: #404bbf;
 border: none;
 
