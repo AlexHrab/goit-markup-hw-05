@@ -820,8 +820,7 @@ border: 0;
     fill: transparent;
 
 }
-
-.aaasss:checked{
+.checkbox input:checked form-span{
 background-color: #404bbf;
 border: none;
 
