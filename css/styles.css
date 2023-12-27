@@ -818,5 +818,11 @@ border: 0;
     display: inline-flex;
     align-items: center;justify-content: center;
     fill: transparent;
-    
+
+}
+
+.checkbox>input:checked{
+background-color: #404bbf;
+border: none;
+
 }
