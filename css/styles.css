@@ -792,7 +792,7 @@ letter-spacing:  0.04em;
     padding: 8px 24px;
     color: #FFF;
 text-align: center;
-font-family: Roboto;
+font-family: Roboto, sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
@@ -811,7 +811,7 @@ border: none;
 cursor: pointer;
 }
 
-.futer-form-svg{
+.footer-form-svg{
     margin-left: 16px;
 }
 
