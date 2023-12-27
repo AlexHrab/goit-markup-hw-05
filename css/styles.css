@@ -821,7 +821,7 @@ border: 0;
     fill: transparent;
 
 }
-.checkbox input:checked + .form-span{
+.checkbox input:checked + .label .form-span{
 background-color: #404bbf;
 border: none;
 fill: #F4F4FD;
