@@ -523,7 +523,247 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 
 
 
-               
-                
 
 
+
+
+
+
+
+
+.feedback-form{
+    position: absolute;
+    top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+    background: #FCFCFC;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
+    padding: 24px;
+    display: flex;
+        flex-direction: column;
+       
+}
+
+dialog{
+    width: 408px;
+    height: 584px;
+    border-radius: 4px;
+    position: relative;
+    outline: none;
+    border: none;
+}
+
+dialog::backdrop{
+    background: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
+}
+
+.name, .phone, .email, .comments{
+display: flex;
+flex-direction: column;
+}
+
+.label{
+    color: #8E8F99;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.48px;
+    margin-bottom: 4px;
+}
+
+
+
+
+
+
+.input{
+    width: 360px;
+margin-bottom: 8px;
+width: 360px;
+height: 40px;
+border-radius: 4px;
+    border: 1px solid rgba(46, 47, 66, 0.40);
+    padding-left: 38px;
+    outline: none;
+}
+
+.input:focus-within{
+    border-color: #4D5AE5;
+}
+
+.input-name-input:focus-within .input-svg-name{
+    fill: #4D5AE5;
+}
+
+.input-comments-input:focus-within{
+    border-color: #4D5AE5;
+}
+
+.privacy-policy{
+    color: #4D5AE5;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.48px;
+    text-decoration-line: underline;
+    
+}
+
+
+.input-name-input{
+position: relative;
+padding: 0;
+
+}
+
+.input-svg-name{
+    position: absolute;
+    top: 8px;
+    bottom: 8px;
+    left: 16px;
+   
+}
+
+.input-comments-input{
+    border-radius: 4px;
+        border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
+        resize: none;
+        margin-bottom: 16px;
+        padding: 8px 16px;
+        width: 360px;
+        height: 120px;
+        outline: none;
+}
+
+.new-window{
+    color: #2E2F42;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+        margin-bottom: 16px;
+}
+
+.close{
+    width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid rgba(0, 0, 0, 0.10);
+            background-color: #E7E9FC;
+            align-self: flex-end;
+            margin-bottom: 24px;
+            flex-shrink: 0;
+}
+
+.close:active{
+    border: none;
+    background-color: #404BBF;
+}
+
+.close:active .close-cvg{
+    fill: #FFFFFF;
+}
+
+
+
+.send-form{
+    background-color: #4D5AE5;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+   ;cursor: pointer;
+letter-spacing: 0.04em;
+margin-top: 24px;
+margin-bottom: 0;
+padding: 16px 32px;
+border-radius: 4px;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+border: 0;
+display: block;
+min-width: 169px;
+height: 56px;
+margin-left: auto;
+margin-right: auto;
+transition-property: background-color;
+transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.footer-form{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-form-div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    padding: 0;
+}
+
+.label-subscribe{
+    color: #FFF;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.32px;
+margin-bottom: 16px;
+}
+
+.email-footer{
+    border-radius: 4px;
+border: 1px solid var(--WHITE, #FFF);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+width: 264px;
+height: 40px;
+flex-shrink: 0;
+background: var(--NAVY-BLUE, #2E2F42);
+padding: 8px 16px;
+color: #FFF;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.48px;
+}
+
+.button-form-footer{
+    padding: 8px 24px;
+    margin-left: 24px;
+    color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; 
+letter-spacing: 0.64px;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+gap: 16px;
+border-radius: 4px;
+background: #4D5AE5;
+width: 165px;
+height: 40px;
+align-self: flex-end;
+border: 0;
+}
