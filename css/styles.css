@@ -739,11 +739,8 @@ transition-duration: 250ms;
 
 }
 
-.footer-form{
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
+
+
 
 .footer-form-div{
     display: flex;
@@ -763,9 +760,13 @@ font-family: Roboto;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.32px;
+line-height: 1.5;
+letter-spacing: 0.02em;
 margin-bottom: 16px;
+}
+
+.futer-form{
+    display: flex;
 }
 
 .email-footer{
@@ -820,8 +821,8 @@ border: 0;
     fill: transparent;
 
 }
-.visually-hidden:checked .form-span{
+.checkbox input:checked + .form-span{
 background-color: #404bbf;
 border: none;
-
+fill: #F4F4FD;
 }
